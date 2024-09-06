@@ -1,0 +1,4 @@
+CREATE TABLE USER_ROLE (
+    Role_id INT PRIMARY KEY,      
+    Role_name VARCHAR(255)        
+);
