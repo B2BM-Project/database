@@ -8,7 +8,7 @@ CREATE TABLE users (
     email VARCHAR(225) NOT NULL,
     display_name VARCHAR(50) DEFAULT NULL,
     profile_img MEDIUMBLOB DEFAULT NULL,
-    role INT(11) DEFAULT NULL,
+    role TEXT DEFAULT NULL,
     total_score INT(11) DEFAULT NULL,
     certificate_name VARCHAR(100) DEFAULT NULL,
     member_since TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
